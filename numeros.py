@@ -1,6 +1,9 @@
 import math
 
-r = float(input("Ingrese el valor: "))
-resultado = math.pi*(r**2)
+def calcular_area(radio):
+    radio = float(input("Ingrese el valor: "))
+    resultado = math.pi*(radio**2)
+    return resultado
 
-print(resultado)
+x = calcular_area(1.72)
+print(x)
